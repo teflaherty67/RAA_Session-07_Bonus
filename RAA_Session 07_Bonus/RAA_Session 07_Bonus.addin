@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command RAA_Session 07_Bonus</Text>
+    <Description>Some description for RAA_Session 07_Bonus</Description>
+    <Assembly>RAA_Session 07_Bonus.dll</Assembly>
+    <FullClassName>RAA_Session_07_Bonus.Command</FullClassName>
+    <ClientId>1b4936d8-1702-4ec0-a0ea-ccf608a06aa5</ClientId>
+    <VendorId>T Edward</VendorId>
+    <VendorDescription>T Edward Coder</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application RAA_Session 07_Bonus</Name>
+    <Assembly>RAA_Session 07_Bonus.dll</Assembly>
+    <FullClassName>RAA_Session_07_Bonus.App</FullClassName>
+    <ClientId>42e0e89d-8115-4b9a-9c81-fc43c6eeb8fb</ClientId>
+    <VendorId>T Edward</VendorId>
+    <VendorDescription>T Edward Coder</VendorDescription>
+  </AddIn>
+</RevitAddIns>
