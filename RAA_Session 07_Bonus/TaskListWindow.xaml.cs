@@ -24,5 +24,20 @@ namespace RAA_Session_07_Bonus
         {
             InitializeComponent();
         }
+
+        private void btnAddEdit_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnUp_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnDn_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
