@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Autodesk.Revit.UI;
 
 namespace RAA_Session_07_Bonus
 {
@@ -27,17 +28,23 @@ namespace RAA_Session_07_Bonus
 
         private void btnAddEdit_Click(object sender, RoutedEventArgs e)
         {
-
+            lbxTasks.Items.Add(tbxItem.Text);
+            tbxItem.Text = "";
         }
 
         private void btnUp_Click(object sender, RoutedEventArgs e)
         {
-
+            TaskDialog.Show("test", "Clicked up button");
         }
 
         private void btnDn_Click(object sender, RoutedEventArgs e)
         {
+            TaskDialog.Show("test", "Clicked down button");
+        }
 
+        private void lbxTasks_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            TaskDialog.Show("test", "I selected an item");
         }
     }
 }

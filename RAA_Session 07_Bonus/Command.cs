@@ -25,7 +25,15 @@ namespace RAA_Session_07_Bonus
             Application app = uiapp.Application;
             Document doc = uidoc.Document;
 
+            TaskListWindow curForm = new TaskListWindow();
 
+            curForm.Width = 500;
+            curForm.Height = 700;
+
+            curForm.WindowStartupLocation = System.Windows.WindowStartupLocation.CenterScreen;
+            curForm.Topmost = true;
+
+            curForm.ShowDialog();
 
             return Result.Succeeded;
         }
